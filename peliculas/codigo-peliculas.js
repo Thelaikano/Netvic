@@ -1,11 +1,3 @@
-const contenedorPeliculas = document.getElementById("contenedor-peliculas");
-const ventana = document.getElementById("ventana");
-const reproductor = document.getElementById("reproductor");
-const cerrar = document.getElementById("cerrar");
-const filtros = document.querySelectorAll("#filtro");
-const resumen = document.getElementById("resumen");
-const menu = document.getElementById("menu");
-
 // inicia modo obscuro
 const btnChangeFondos = document.querySelectorAll(".btn-changefondo");
 const changeFondos = document.querySelectorAll(".changefondo");
@@ -41,6 +33,48 @@ changeFondos.forEach((changeFondo) => {
   });
 });
 // termina modo obscuro
+// inicia Login
+document.addEventListener("DOMContentLoaded", () => {
+  const inputLogin = document.getElementById("login-input");
+  const btnLogin = document.getElementById("login-button");
+  const login = document.getElementById("login");
+
+  const claveCorrecta = sessionStorage.getItem("clave");
+  if (claveCorrecta) {
+    login.style.display = "none";
+    main.style.display = "flex";
+  }
+  const clave = "1234";
+  btnLogin.addEventListener("click", () => {
+    if (inputLogin.value === clave) {
+      sessionStorage.setItem("clave", clave);
+      login.style.display = "none";
+      main.style.display = "flex";
+    } else {
+      alert("Contraseña Incorrecta");
+    }
+  });
+  inputLogin.addEventListener("keydown", (e) => {
+    if (e.key === "Enter") {
+      if (inputLogin.value === clave) {
+        sessionStorage.setItem("clave", clave);
+        login.style.display = "none";
+        main.style.display = "flex";
+      } else {
+        alert("Contraseña Incorrecta");
+      }
+    }
+  });
+});
+// termina Login
+
+const contenedorPeliculas = document.getElementById("contenedor-peliculas");
+const ventana = document.getElementById("ventana");
+const reproductor = document.getElementById("reproductor");
+const cerrar = document.getElementById("cerrar");
+const filtros = document.querySelectorAll("#filtro");
+const resumen = document.getElementById("resumen");
+const menu = document.getElementById("menu");
 
 /* inicia arrai donde toma informacion las funciones */
 const ArrPeliculas = [
@@ -197,10 +231,14 @@ const indexVideo = () => {
       const peliculaSeleccionada = ArrPeliculas.find(
         (p) => p.id === peliculaId
       );
+
       menu.style.display = "none";
       contenedorPeliculas.style.display = "none";
       ventana.style.display = "flex";
       window.scrollTo(0, 0);
+      document.body.style.backgroundColor = "black";
+      h1.style.textShadow = "none";
+      main.style.boxShadow = "none";
       reproductor.src = peliculaSeleccionada.src;
       resumen.innerHTML = `
       <h2 class="titulo-resumen">${peliculaSeleccionada.id}</h2>
@@ -218,6 +256,9 @@ cerrar.addEventListener("click", () => {
   menu.style.display = "block";
   ventana.style.display = "none";
   contenedorPeliculas.style.display = "grid";
+  document.body.style.backgroundColor = "";
+  h1.style.textShadow = "";
+  main.style.boxShadow = "";
 });
 /* termina funcion cerrar */
 

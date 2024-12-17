@@ -19,6 +19,7 @@
   </head>
   <body>
     <header id="menu">
+      <!-- Inicia interior header-->
       <div>
         <h1 id="h1">Netvic.com</h1>
         <span class="separacion">
@@ -38,31 +39,33 @@
           </div>
         </span>
       </div>
+      <!-- TErmina inetrior header-->
+
+      <!-- inicia nav -->
       <nav>
         <a href="../index.html">Inicio</a>
         <a href="peliculas.html">Peliculas</a>
         <a href="">Series</a>
-        <ul>
-          <span>Libros</span>
-          <div class="mini-menu">
-            <li><a href="">Libros</a></li>
-            <li><a href="">Comics</a></li>
-            <li><a href="">Mangas</a></li>
-          </div>
-        </ul>
+        <a href="">Libros</a>
         <a href="">Programas</a>
         <a href="">Juegos</a>
+        <!-- Inicia tema obscuro -->
         <span class="changefondo-on">ON</span>
         <div class="changefondo">
           <button class="btn-changefondo"></button>
         </div>
         <span class="changefondo-off">OFF</span>
+        <!-- Termina tema obscuro-->
       </nav>
+      <!-- Termina nav-->
 
+      <!-- Inicia minimenu -->
       <div id="mini-menu">
         <div class="icono">
           <span class="material-symbols-outlined"> menu </span>
         </div>
+
+        <!-- inicia interior header minimenu -->
         <span class="filtro-minimenu">
           <p>Peliculas</p>
           <div class="filtro">
@@ -79,6 +82,9 @@
             </select>
           </div>
         </span>
+        <!-- Termina interior header minimenu -->
+
+        <!-- Inicia Nav minimenu -->
         <span class="menu-minimenu">
           <a href="../index.html">Inicio</a>
           <a href="peliculas.html">Peliculas</a>
@@ -86,20 +92,42 @@
           <a href="">Libros</a>
           <a href="">Programas</a>
           <a href="">Juegos</a>
+          <!-- Inicia tema obscuro minimenu-->
           <div class="changefondo">
             <button class="btn-changefondo"></button>
           </div>
+          <!-- Termiona tema obscuro minimenu-->
         </span>
+        <!-- Termina nav minimenu-->
       </div>
     </header>
+    <!-- Termina header -->
+
     <main id="main">
       <section id="contenedor-peliculas"></section>
+
+      <!-- inicia Reproductor -->
       <div id="ventana">
         <iframe id="reproductor" scrolling="NO" allowfullscreen="true"></iframe>
         <button id="cerrar" title="Cerrar">X</button>
         <div id="resumen"></div>
       </div>
+      <!-- Termina reproductor -->
     </main>
+    <!-- inicia login -->
+    <section id="login">
+      <div id="login-separacion">
+        <p id="login-titulo">Netvic.com</p>
+        <input
+          id="login-input"
+          type="password"
+          placeholder="Contraseña"
+          autocomplete="off"
+        />
+        <button id="login-button">Ingresar</button>
+      </div>
+    </section>
+    <!-- termina login -->
     <script src="codigo-peliculas.js"></script>
   </body>
 </html>

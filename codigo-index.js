@@ -1,11 +1,3 @@
-const galeriaPeliculas = document.getElementById("galeria-peliculas");
-const menu = document.getElementById("menu");
-const objeto = document.getElementById("objeto");
-const iframe = document.getElementById("iframe");
-const contenedores = document.querySelectorAll(".contenedor");
-const resumen = document.getElementById("resumen");
-const cerrar = document.getElementById("cerrar");
-
 // inicia Login
 document.addEventListener("DOMContentLoaded", () => {
   const inputLogin = document.getElementById("login-input");
@@ -76,6 +68,14 @@ changeFondos.forEach((changeFondo) => {
   });
 });
 // termina modo obscuro
+
+const galeriaPeliculas = document.getElementById("galeria-peliculas");
+const menu = document.getElementById("menu");
+const objeto = document.getElementById("objeto");
+const iframe = document.getElementById("iframe");
+const contenedores = document.querySelectorAll(".contenedor");
+const resumen = document.getElementById("resumen");
+const cerrar = document.getElementById("cerrar");
 
 const arrGaleriaPeliculas = [
   {
@@ -159,6 +159,7 @@ const cargaGaleriaPeliculas = (arr = arrGaleriaPeliculas) => {
     .join("");
 };
 cargaGaleriaPeliculas();
+
 const cajas = document.querySelectorAll(".caja");
 cajas.forEach((caja, index) => {
   caja.addEventListener("click", () => {
@@ -167,7 +168,9 @@ cajas.forEach((caja, index) => {
     contenedores.forEach((contenedor) => (contenedor.style.display = "none"));
     objeto.style.display = "block";
     window.scrollTo(0, 0);
-
+    document.body.style.backgroundColor = "black";
+    h1.style.textShadow = "none";
+    main.style.boxShadow = "none";
     iframe.src = arrGaleriaPeliculas[index].src;
     resumen.innerHTML = `
       <h2 class="titulo-resumen">${arrGaleriaPeliculas[index].id}</h2>
@@ -179,7 +182,9 @@ cerrar.addEventListener("click", () => {
   iframe.src = iframe.src;
   iframe.src = "";
   menu.style.display = "block";
-
+  document.body.style.backgroundColor = "";
+  h1.style.textShadow = "";
+  main.style.boxShadow = "";
   objeto.style.display = "none";
   contenedores.forEach((contenedor) => (contenedor.style.display = "block"));
 });

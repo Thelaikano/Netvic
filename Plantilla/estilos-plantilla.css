@@ -15,13 +15,12 @@
 }
 body {
   background-color: var(--fondo);
-
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-/* inicia header */
+/* inicia interior header */
 header {
   position: absolute;
   top: 25px;
@@ -64,28 +63,19 @@ header > div > h1 {
   }
 }
 header > div > span {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
+  border: 1px solid white;
   width: 50%;
   height: 100%;
   margin-left: 20px;
 }
 header > div > span > p {
-  margin-right: 10px;
   color: var(--color-letra);
   font-family: "Rock Salt", cursive;
   font-weight: 400;
   font-style: normal;
   font-size: 25px;
-}
-#filtro {
-  background-color: var(--fondo-obscuro);
-  color: var(--color-letra);
-  font-weight: bold;
-  width: 100px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-top: 15px;
+  margin-left: 60px;
 }
 /* inicia nav */
 nav {
@@ -114,7 +104,7 @@ nav > a:hover {
   width: 80px;
   border: 2px solid var(--separacion);
   background-color: var(--fondo-obscuro);
-  margin-left: 10px;
+  margin-left: 15px;
   border-radius: 20px;
   margin-top: 2px;
 }
@@ -133,7 +123,12 @@ nav > a:hover {
 .changefondo:hover {
   cursor: pointer;
 }
+.btn-changefondo:hover {
+  cursor: pointer;
+  background-color: rgb(246, 242, 242);
+}
 /* termina tema obscuro */
+/* termina nav */
 /* termina header */
 
 /* inicia minimenu */
@@ -149,6 +144,7 @@ nav > a:hover {
   color: white;
   border: 1px solid white;
   box-shadow: 0 0 0.5rem white, 0 0 0.2rem white;
+  z-index: 1;
 }
 #mini-menu:hover {
   width: 200px;
@@ -161,25 +157,22 @@ nav > a:hover {
   padding-top: 5px;
   padding-left: 10px;
 }
+/* inicia interior header minimenu */
 .filtro-minimenu {
   display: block;
   width: 100%;
-  height: 100px;
+  height: 70px;
   text-align: center;
-
   margin: 0;
 }
 .filtro-minimenu > p {
-  font-size: 30px;
+  font-size: 40px;
 }
-.filtro-minimenu > select {
-  font-size: 25px;
-}
+/* termina interior header minimenu */
+/* inicia nav minimenu */
 .menu-minimenu {
   width: 100%;
-  height: 0;
   display: block;
-
   margin: 0px;
   margin-top: 20px;
 }
@@ -197,116 +190,20 @@ nav > a:hover {
   text-decoration: underline;
   text-shadow: var(--borde-link);
 }
+/* termina nav minimenu */
 /* termina minimenu */
-
 main {
   display: none;
-  justify-content: center;
-  align-items: center;
   max-width: 1020px;
   width: 93%;
+  height: 100vh;
   margin-top: 25px;
   margin-bottom: 25px;
-  height: 100%;
   background-color: var(--fondo-obscuro);
   box-shadow: 0 0 0.8rem #bc13fe, 0 0 0.2rem #fff, 0 0 0.2rem #fff,
     0 0 0.8rem #bc13fe;
 }
-
-#contenedor-peliculas {
-  width: 90%;
-  margin-top: 150px;
-  margin-bottom: 25px;
-
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: auto;
-  place-items: center;
-  align-items: center;
-}
-.pelicula-html {
-  width: 100%;
-  height: 100%;
-  background-color: black;
-  background-size: contain;
-  background-position: center;
-  cursor: pointer;
-}
-.pelicula-html:hover {
-  box-shadow: 0 0 0.8rem white, 0 0 0.5rem white;
-  transform: scale(105%);
-  border: 2px solid white;
-}
-/* inicia reproductor */
-#ventana {
-  display: none;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  background-color: var(--fondo-obscuro);
-  width: 100%;
-  height: 100%;
-  margin: 0;
-  padding-bottom: 25px;
-}
-#resumen {
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  flex-direction: column;
-}
-.titulo-resumen {
-  font-family: "Rock Salt", cursive;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 25px;
-  color: var(--color-letra);
-}
-.img-resumen {
-  float: right;
-  width: 11rem;
-  height: 15rem;
-  margin: 15px;
-  margin-top: 0;
-  margin-bottom: 0;
-}
-.p-resumen {
-  color: var(--color-letra);
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 0.8rem;
-  font-weight: 900;
-  font-size: 18px;
-  text-align: justify;
-  margin: 10px;
-}
-#reproductor {
-  box-shadow: 0 0 0.5rem white;
-  margin-top: 30px;
-
-  width: 560px;
-  height: 315px;
-}
-#cerrar {
-  width: 3rem;
-  height: 3rem;
-  background-color: var(--fondo-obscuro);
-  color: var(--color-letra);
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-  font-size: 1.5rem;
-  cursor: pointer;
-  border: 3px solid gray;
-  border-radius: 100%;
-  position: absolute;
-  right: 30px;
-  top: 20px;
-}
-#cerrar:hover {
-  box-shadow: 0 0 0.5rem white;
-  border: 3px solid white;
-  background-color: black;
-}
-/* termina reproductor */
-/* inicia login  */
+/* inicia login */
 #login {
   display: flex;
   flex-direction: column;
@@ -362,51 +259,33 @@ main {
     width: 340px;
     height: 5rem;
   }
+  header > div > span {
+    border: none;
+  }
+  header > div > span > p {
+    margin-left: -30px;
+  }
   header > div > h1 {
     font-size: 2.2rem;
     margin-left: 80px;
   }
-  header > div > span {
-    display: none;
-  }
-  #filtro {
-    transform: scale(130%);
-  }
-  nav {
-    display: none;
+  #mini-menu {
+    display: block;
   }
   .changefondo {
     margin-top: 20px;
     margin-left: 50px;
     height: 30px;
   }
-  #mini-menu {
-    display: block;
+
+  header > div > span {
+    display: none;
+  }
+  nav {
+    display: none;
   }
   main {
     width: 340px;
-  }
-  #contenedor-peliculas {
-    grid-template-columns: repeat(2, 1fr);
-    width: 90%;
-    margin-top: 100px;
-  }
-  .pelicula-html {
-    width: 100%;
-    height: 100%;
-  }
-  #reproductor {
-    width: 309px;
-    height: 185px;
-  }
-  .p-resumen {
-    margin-left: 4%;
-    margin-right: 4%;
-    font-size: 0.65em;
-  }
-  #cerrar {
-    top: 25px;
-    right: 30px;
   }
   #login {
     width: 340px;
@@ -427,15 +306,15 @@ main {
 }
 
 @media (min-width: 950px) {
-  header > div > span > p {
-    font-size: 45px;
-    margin-right: 150px;
+  header > div > span {
+    margin-left: 50px;
   }
-  #filtro {
-    position: absolute;
-    right: 50px;
-    margin-right: 55px;
-    transform: scale(130%);
+  header > div > span > p {
+    font-size: 30px;
+    margin-right: 150px;
+    margin-left: 100px;
+
+    margin-top: 0;
   }
   .btn-changefondo {
     width: 25px;
@@ -443,7 +322,7 @@ main {
   .changefondo-on {
     display: block;
     color: white;
-    margin-left: 250px;
+    margin-left: 300px;
     margin-top: 5px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 1rem;
@@ -453,36 +332,9 @@ main {
     display: block;
     color: white;
     margin-left: 10px;
-
     margin-top: 5px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 1rem;
     font-weight: 900;
-  }
-  #contenedor-peliculas {
-    grid-template-columns: repeat(4, 1fr);
-    margin-left: 0;
-  }
-  .pelicula-html {
-    width: 100%;
-    height: 100%;
-  }
-  #ventana {
-    width: 100%;
-    height: 100%;
-  }
-  #reproductor {
-    width: 640px;
-    height: 360px;
-    margin-left: 0;
-  }
-
-  .p-resumen {
-    margin-left: 10%;
-    margin-right: 10%;
-  }
-  #cerrar {
-    top: 40px;
-    right: 200px;
   }
 }
