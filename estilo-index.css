@@ -162,6 +162,10 @@ nav > a:hover {
   cursor: pointer;
   box-shadow: none;
 }
+#mini-menu.cerrado {
+  width: 55px;
+  height: 42px;
+}
 #mini-menu:hover:not(.cerrado) {
   width: 200px;
   height: 400px;
