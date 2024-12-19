@@ -206,7 +206,7 @@ cerrarMinimenu.addEventListener("click", () => {
   minimenu.classList.add("cerrado");
 });
 
-minimenu.addEventListener("click", (event) => {
+minimenu.addEventListener("mouseenter", (event) => {
   // Prevenir que el botón cerrar reabra el menú inmediatamente
   if (event.target === cerrarMinimenu) return;
 
