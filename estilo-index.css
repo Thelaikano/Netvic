@@ -164,6 +164,7 @@ nav > a:hover {
 #mini-menu.cerrado {
   width: 55px;
   height: 42px;
+  pointer-events: none;
 }
 .material-symbols-outlined {
   transform: scale(200%);
