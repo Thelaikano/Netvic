@@ -206,7 +206,7 @@ cerrarMinimenu.addEventListener("click", () => {
   minimenu.classList.add("cerrado");
 });
 
-minimenu.addEventListener("mouseenter", () => {
+minimenu.addEventListener("click", () => {
   if (minimenu.classList.contains("cerrado")) {
     minimenu.classList.remove("cerrado");
   }
