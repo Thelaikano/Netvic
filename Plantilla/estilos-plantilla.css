@@ -135,7 +135,7 @@ nav > a:hover {
 #mini-menu {
   display: none;
   position: absolute;
-  top: 10px;
+  top: 15px;
   left: 10px;
   width: 55px;
   height: 42px;
@@ -145,6 +145,7 @@ nav > a:hover {
   border: 1px solid white;
   box-shadow: 0 0 0.5rem white, 0 0 0.2rem white;
   z-index: 1;
+  border-radius: 10px;
 }
 #mini-menu:hover {
   width: 200px;
@@ -152,10 +153,33 @@ nav > a:hover {
   cursor: pointer;
   box-shadow: none;
 }
+#mini-menu.cerrado {
+  width: 55px;
+  height: 42px;
+}
 .material-symbols-outlined {
   transform: scale(200%);
   padding-top: 5px;
   padding-left: 10px;
+}
+#cerrar-minimenu {
+  width: 2.1rem;
+  height: 2.1rem;
+  background-color: var(--fondo-obscuro);
+  color: var(--color-letra);
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 1.1rem;
+  cursor: pointer;
+  border: 3px solid gray;
+  border-radius: 100%;
+  position: absolute;
+  right: 30px;
+  top: 20px;
+}
+#cerrar-minimenu:hover {
+  box-shadow: 0 0 0.5rem white;
+  border: 3px solid white;
+  background-color: black;
 }
 /* inicia interior header minimenu */
 .filtro-minimenu {
@@ -272,6 +296,10 @@ main {
   #mini-menu {
     display: block;
   }
+  #cerrar-minimenu {
+    top: 5px;
+    left: 150px;
+  }
   .changefondo {
     margin-top: 20px;
     margin-left: 50px;
@@ -322,7 +350,7 @@ main {
   .changefondo-on {
     display: block;
     color: white;
-    margin-left: 300px;
+    margin-left: 250px;
     margin-top: 5px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 1rem;
@@ -332,6 +360,7 @@ main {
     display: block;
     color: white;
     margin-left: 10px;
+
     margin-top: 5px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 1rem;

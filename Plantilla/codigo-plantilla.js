@@ -66,3 +66,18 @@ inputLogin.addEventListener("keydown", (e) => {
   }
 });
 // termina Login
+
+/* inicia cerrar minimenu*/
+const cerrarMinimenu = document.getElementById("cerrar-minimenu");
+const minimenu = document.getElementById("mini-menu");
+
+cerrarMinimenu.addEventListener("click", () => {
+  minimenu.classList.add("cerrado");
+});
+
+minimenu.addEventListener("mouseenter", () => {
+  if (minimenu.classList.contains("cerrado")) {
+    minimenu.classList.remove("cerrado");
+  }
+});
+/* termina cerrar mini menu*/

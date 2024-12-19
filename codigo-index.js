@@ -166,7 +166,7 @@ cajas.forEach((caja, index) => {
     menu.style.display = "none";
 
     contenedores.forEach((contenedor) => (contenedor.style.display = "none"));
-    objeto.style.display = "block";
+    objeto.style.display = "flex";
     window.scrollTo(0, 0);
     document.body.style.backgroundColor = "black";
     h1.style.textShadow = "none";
@@ -178,13 +178,37 @@ cajas.forEach((caja, index) => {
       `;
   });
 });
+
+// inicia cerrar reproductor
 cerrar.addEventListener("click", () => {
   iframe.src = iframe.src;
   iframe.src = "";
   menu.style.display = "block";
-  document.body.style.backgroundColor = "";
-  h1.style.textShadow = "";
-  main.style.boxShadow = "";
   objeto.style.display = "none";
+  if (isDarkMode) {
+    document.body.style.backgroundColor = "black";
+    h1.style.textShadow = "none";
+    main.style.boxShadow = "none";
+  } else {
+    document.body.style.backgroundColor = "";
+    h1.style.textShadow = "";
+    main.style.boxShadow = "";
+  }
   contenedores.forEach((contenedor) => (contenedor.style.display = "block"));
 });
+// termina cerrar reproductor
+
+/* inicia cerrar minimenu*/
+const cerrarMinimenu = document.getElementById("cerrar-minimenu");
+const minimenu = document.getElementById("mini-menu");
+
+cerrarMinimenu.addEventListener("click", () => {
+  minimenu.classList.add("cerrado");
+});
+
+minimenu.addEventListener("mouseenter", () => {
+  if (minimenu.classList.contains("cerrado")) {
+    minimenu.classList.remove("cerrado");
+  }
+});
+/* termina cerrar mini menu*/

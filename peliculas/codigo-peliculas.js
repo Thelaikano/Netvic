@@ -256,11 +256,32 @@ cerrar.addEventListener("click", () => {
   menu.style.display = "block";
   ventana.style.display = "none";
   contenedorPeliculas.style.display = "grid";
-  document.body.style.backgroundColor = "";
-  h1.style.textShadow = "";
-  main.style.boxShadow = "";
+  if (isDarkMode) {
+    document.body.style.backgroundColor = "black";
+    h1.style.textShadow = "none";
+    main.style.boxShadow = "none";
+  } else {
+    document.body.style.backgroundColor = "";
+    h1.style.textShadow = "";
+    main.style.boxShadow = "";
+  }
 });
 /* termina funcion cerrar */
+
+/* inicia cerrar minimenu*/
+const cerrarMinimenu = document.getElementById("cerrar-minimenu");
+const minimenu = document.getElementById("mini-menu");
+
+cerrarMinimenu.addEventListener("click", () => {
+  minimenu.classList.add("cerrado");
+});
+
+minimenu.addEventListener("mouseenter", () => {
+  if (minimenu.classList.contains("cerrado")) {
+    minimenu.classList.remove("cerrado");
+  }
+});
+/* termina cerrar mini menu*/
 
 /* inicia funcion filtro de input select */
 filtros.forEach((filtro) => {
