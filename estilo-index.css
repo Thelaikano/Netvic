@@ -154,6 +154,7 @@ nav > a:hover {
   box-shadow: 0 0 0.5rem white, 0 0 0.2rem white;
   z-index: 1;
   border-radius: 10px;
+  transition: all 0.3s ease;
 }
 #mini-menu:hover {
   width: 200px;
@@ -164,7 +165,6 @@ nav > a:hover {
 #mini-menu:hover:not(.cerrado) {
   width: 200px;
   height: 400px;
-  box-shadow: none;
 }
 
 #mini-menu.cerrado {
