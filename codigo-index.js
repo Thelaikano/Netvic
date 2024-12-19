@@ -206,9 +206,12 @@ cerrarMinimenu.addEventListener("click", () => {
   minimenu.classList.add("cerrado");
 });
 
-minimenu.addEventListener("click", () => {
+minimenu.addEventListener("click", (event) => {
+  // Prevenir que el botón cerrar reabra el menú inmediatamente
+  if (event.target === cerrarMinimenu) return;
+
   if (minimenu.classList.contains("cerrado")) {
-    minimenu.classList.remove("cerrado");
+    minimenu.classList.remove("cerrado"); // Remueve la clase cerrado
   }
 });
 /* termina cerrar mini menu*/
