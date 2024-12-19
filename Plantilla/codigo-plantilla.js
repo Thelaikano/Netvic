@@ -70,12 +70,15 @@ inputLogin.addEventListener("keydown", (e) => {
 /* inicia cerrar minimenu*/
 const cerrarMinimenu = document.getElementById("cerrar-minimenu");
 const minimenu = document.getElementById("mini-menu");
-
 cerrarMinimenu.addEventListener("click", () => {
   minimenu.classList.add("cerrado");
 });
-
-minimenu.addEventListener("mouseenter", () => {
+minimenu.addEventListener("mouseenter", (event) => {
+  if (minimenu.classList.contains("cerrado")) {
+    minimenu.classList.remove("cerrado");
+  }
+});
+minimenu.addEventListener("touchstart", (event) => {
   if (minimenu.classList.contains("cerrado")) {
     minimenu.classList.remove("cerrado");
   }

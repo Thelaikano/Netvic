@@ -165,11 +165,7 @@ nav > a:hover {
 #mini-menu:hover:not(.cerrado) {
   width: 200px;
   height: 400px;
-}
-
-#mini-menu.cerrado {
-  width: 55px;
-  height: 42px;
+  box-shadow: none;
 }
 .material-symbols-outlined {
   transform: scale(200%);
@@ -433,6 +429,7 @@ iframe {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   background-color: var(--fondo-obscuro);
   color: var(--color-letra);
+  border-radius: 10px;
 }
 /* termina login */
 
@@ -571,19 +568,19 @@ iframe {
   .objeto {
     width: 100%;
     height: 100%;
-    padding-left: 200px;
   }
   iframe {
     width: 640px;
     height: 360px;
     margin-left: 0;
+    margin-right: 0;
   }
   .titulo-resumen {
     margin-left: -150px;
   }
   .p-resumen {
-    margin-left: 0px;
-    margin-right: 200px;
+    margin-left: 10%;
+    margin-right: 10%;
   }
   #cerrar {
     top: 40px;
