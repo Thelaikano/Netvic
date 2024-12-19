@@ -207,9 +207,11 @@ cerrarMinimenu.addEventListener("click", () => {
 });
 
 minimenu.addEventListener("mouseenter", (event) => {
-  // Prevenir que el botón cerrar reabra el menú inmediatamente
-  if (event.target === cerrarMinimenu) return;
-
+  if (minimenu.classList.contains("cerrado")) {
+    minimenu.classList.remove("cerrado"); // Remueve la clase cerrado
+  }
+});
+minimenu.addEventListener("touchstart", (event) => {
   if (minimenu.classList.contains("cerrado")) {
     minimenu.classList.remove("cerrado"); // Remueve la clase cerrado
   }
