@@ -384,27 +384,31 @@ iframe {
 }
 /* termina reproductor */
 
-/* inicia login  */
+/* inicia login */
 #login {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
   max-width: 1020px;
   width: 93%;
   height: 100vh;
-
   z-index: 2;
   background: linear-gradient(to right, #180120 0%, #310542 51%, #180120 100%);
   box-shadow: 0 0 0.8rem #bc13fe, 0 0 0.2rem #fff, 0 0 0.2rem #fff,
     0 0 0.8rem #bc13fe;
 }
 #login-separacion {
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   border: 5px solid black;
   border-radius: 20px;
   padding: 80px;
   background-color: var(--fondo-obscuro);
+  margin: 0 15px;
 }
 #login-titulo {
   font-weight: bold;
@@ -415,15 +419,22 @@ iframe {
   text-shadow: var(--borde-logo);
   animation: flicker 2.5s infinite alternate;
 }
+#login-frase {
+  margin-top: 20px;
+  color: var(--color-letra);
+  font-family: "Indie Flower", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+}
 #login-input {
   margin-top: 20px;
-  margin-left: 50px;
   width: 170px;
   height: 30px;
   font-size: 1rem;
   text-align: center;
-  background-color: whitesmoke;
-  color: black;
+  background-color: black;
+  color: var(--color-letra);
 }
 #login-button {
   margin-top: 10px;
@@ -518,6 +529,9 @@ iframe {
   }
   #login-input {
     margin-left: 0;
+  }
+  #login-frase {
+    font-size: 16px;
   }
 }
 
