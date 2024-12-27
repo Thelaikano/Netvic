@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rock+Salt&family=Rubik+Mono+One&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=menu"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="estilos-peliculas.css" />
+    <title>Netvic - Peliculas</title>
+  </head>
+  <body>
+    <header id="menu">
+      <!-- Inicia interior header-->
+      <div>
+        <h1 id="h1">Netvic.com</h1>
+        <span class="separacion">
+          <p>Peliculas</p>
+          <div class="filtro">
+            <select name="filtro" id="filtro">
+              <option value="todo">Todo</option>
+              <option value="accion">Accion</option>
+              <option value="drama">Drama</option>
+              <option value="animacion">Animacion</option>
+              <option value="catastrofe">Catastrofe</option>
+              <option value="ciencia-ficcion">Ciencia Ficcion</option>
+              <option value="comedia">Comedia</option>
+              <option value="terror">Terror</option>
+              <option value="wwf">Wwf</option>
+            </select>
+          </div>
+        </span>
+      </div>
+      <!-- TErmina inetrior header-->
+
+      <!-- inicia nav -->
+      <nav>
+        <a href="../index.html">Inicio</a>
+        <a href="peliculas.html">Peliculas</a>
+        <a href="/series/series.html">Series</a>
+        <a href="">Libros</a>
+        <a href="/Plantilla/plantilla.html">Programas</a>
+        <a href="">Juegos</a>
+        <!-- Inicia tema obscuro -->
+        <span class="changefondo-on">ON</span>
+        <div class="changefondo">
+          <button class="btn-changefondo"></button>
+        </div>
+        <span class="changefondo-off">OFF</span>
+        <!-- Termina tema obscuro-->
+      </nav>
+      <!-- Termina nav-->
+
+      <!-- Inicia minimenu -->
+      <div id="mini-menu">
+        <div class="icono">
+          <span class="material-symbols-outlined"> menu </span>
+        </div>
+        <button id="cerrar-minimenu" title="Cerrar">X</button>
+
+        <!-- inicia interior header minimenu -->
+        <span class="filtro-minimenu">
+          <p>Peliculas</p>
+          <div class="filtro">
+            <select name="filtro" id="filtro">
+              <option value="todo">Todo</option>
+              <option value="accion">Accion</option>
+              <option value="drama">Drama</option>
+              <option value="animacion">Animacion</option>
+              <option value="catastrofe">Catastrofe</option>
+              <option value="ciencia-ficcion">Ciencia Ficcion</option>
+              <option value="comedia">Comedia</option>
+              <option value="terror">Terror</option>
+              <option value="wwf">Wwf</option>
+            </select>
+          </div>
+        </span>
+        <!-- Termina interior header minimenu -->
+
+        <!-- Inicia Nav minimenu -->
+        <span class="menu-minimenu">
+          <a href="../index.html">Inicio</a>
+          <a href="peliculas.html">Peliculas</a>
+          <a href="/series/series.html">Series</a>
+          <a href="">Libros</a>
+          <a href="/Plantilla/plantilla.html">Programas</a>
+          <a href="">Juegos</a>
+          <!-- Inicia tema obscuro minimenu-->
+          <div class="changefondo">
+            <button class="btn-changefondo"></button>
+          </div>
+          <!-- Termiona tema obscuro minimenu-->
+        </span>
+        <!-- Termina nav minimenu-->
+      </div>
+    </header>
+    <!-- Termina header -->
+
+    <main id="main">
+      <section id="contenedor-peliculas"></section>
+
+      <!-- inicia Reproductor -->
+      <div id="ventana">
+        <iframe id="reproductor" scrolling="NO" allowfullscreen="true"></iframe>
+        <button id="cerrar" title="Cerrar">X</button>
+        <div id="resumen"></div>
+      </div>
+      <!-- Termina reproductor -->
+    </main>
+    <!-- inicia login -->
+    <section id="login">
+      <div id="login-separacion">
+        <p id="login-titulo">Netvic.com</p>
+        <p id="login-frase"></p>
+        <input
+          id="login-input"
+          type="password"
+          placeholder="Contraseña"
+          autocomplete="off"
+        />
+        <button id="login-button">Ingresar</button>
+      </div>
+    </section>
+    <!-- termina login -->
+    <script src="codigo-peliculas.js"></script>
+  </body>
+</html>

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rock+Salt&family=Rubik+Mono+One&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=menu"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="estilo-index.css" />
+    <title>Netvic - Inicio</title>
+  </head>
+  <body>
+    <header id="menu">
+      <!-- inicia interior header -->
+      <div>
+        <h1 id="h1">Netvic.com</h1>
+        <span class="separacion">
+          <p>Recien Agregado</p>
+        </span>
+      </div>
+      <!-- termina interior header -->
+
+      <nav>
+        <a href="index.html">Inicio</a>
+        <a href="peliculas/peliculas.html">Peliculas</a>
+        <a href="/series/series.html">Series</a>
+        <a href="">Libros</a>
+        <a href="Plantilla/plantilla.html">Programas</a>
+        <a href="">Juegos</a>
+
+        <!-- inicia fondo obscuro -->
+        <span class="changefondo-on">ON</span>
+        <div class="changefondo">
+          <button class="btn-changefondo"></button>
+        </div>
+        <span class="changefondo-off">OFF</span>
+        <!-- termina fondo obscuro -->
+      </nav>
+      <!-- inicia minimenu -->
+      <div id="mini-menu">
+        <div class="icono">
+          <span class="material-symbols-outlined"> menu </span>
+        </div>
+        <button id="cerrar-minimenu" title="Cerrar">X</button>
+        <!-- inicia interior header minimenu-->
+        <span class="filtro-minimenu">
+          <p>Inicio</p>
+        </span>
+        <!-- termina interior header minimenu -->
+        <!-- inicia nav minimenu -->
+        <span class="menu-minimenu">
+          <a href="index.html">Inicio</a>
+          <a href="peliculas/peliculas.html">Peliculas</a>
+          <a href="/series/series.html">Series</a>
+          <a href="">Libros</a>
+          <a href="Plantilla/plantilla.html">Programas</a>
+          <a href="">Juegos</a>
+          <!-- inicia minimenu fondo obscuro -->
+          <div class="changefondo">
+            <button class="btn-changefondo"></button>
+          </div>
+          <!-- termina minimenu fondo obscuro -->
+        </span>
+        <!-- termina nav minimenu -->
+      </div>
+      <!-- termina minimenu -->
+    </header>
+
+    <main id="main">
+      <section class="contenedor">
+        <p><a href="peliculas/peliculas.html">Peliculas</a></p>
+        <article id="galeria-peliculas"></article>
+      </section>
+      <section class="contenedor">
+        <p><a href="/series/series.html">Series</a></p>
+        <article id="galeria-series"></article>
+      </section>
+      <section class="contenedor">
+        <p><a href="">Libros</a></p>
+        <article id="galeria-libros"></article>
+      </section>
+      <section class="contenedor">
+        <p><a href="">Programas</a></p>
+        <article id="galeria-programas"></article>
+      </section>
+      <section class="contenedor">
+        <p><a href="">Juegos</a></p>
+        <article id="galeria-juegos"></article>
+      </section>
+      <!-- inicia reproductor -->
+      <div id="objeto" class="objeto">
+        <iframe id="iframe" scrolling="NO" allowfullscreen="true"></iframe>
+        <button id="cerrar" title="Cerrar">X</button>
+        <div id="resumen"></div>
+      </div>
+      <!-- termina reproductor -->
+    </main>
+
+    <!-- inicia login -->
+    <section id="login">
+      <div id="login-separacion">
+        <p id="login-titulo">Netvic.com</p>
+        <p id="login-frase"></p>
+        <input
+          id="login-input"
+          type="password"
+          placeholder="Contraseña"
+          autocomplete="off"
+        />
+        <button id="login-button">Ingresar</button>
+      </div>
+    </section>
+    <!-- termina login -->
+    <script src="codigo-index.js"></script>
+  </body>
+</html>
