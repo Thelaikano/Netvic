@@ -269,6 +269,6 @@ cargaGaleriaSeries();
 const cajasSeries = document.querySelectorAll(".caja-serie");
 cajasSeries.forEach((caja) => {
   caja.addEventListener("click", () => {
-    window.location.href = "/series/series.html";
+    window.location.href = "series/series.html";
   });
 });
