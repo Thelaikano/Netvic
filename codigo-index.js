@@ -244,7 +244,6 @@ minimenu.addEventListener("touchstart", (event) => {
 /* termina cerrar mini menu*/
 
 // inicia galeria series
-
 const arrGaleriaSeries = [
   {
     id: "La 3ra Roca",
@@ -254,7 +253,20 @@ const arrGaleriaSeries = [
     id: "Spartacus",
     img: "https://resizing.flixster.com/dtalUtTwPHVQ6oXrqLlMiVU6Leg=/206x305/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p9300710_b_v13_ac.jpg",
   },
+  {
+    id: "Malcolm el de en medio",
+    img: "https://lh3.googleusercontent.com/blogger_img_proxy/AEn0k_vaMNboIWM1Yc2L81JnA6IEplenSnz9O9qSM9k3zHvl4kSGu_HobcA72Grd0lFmjsa_eOnmwoA1StnSu1dejJXJUsQaqeHHhw=s0-d",
+  },
+  {
+    id: "los Simpsons",
+    img: "https://lh3.googleusercontent.com/blogger_img_proxy/AEn0k_sR81ogevrWPIq1wESdbOKhSKH_cNA0LP16WJfzmgHuqIG_fzpmvhwDyTJ-WWwOi9DVq_v-Pey77B83ieWHEaj8Ta3VnySTZ1PczF6XIB3hIoNWlUn8zyEHSeQvkx_QBGhnLi9bg3WD=s0-d",
+  },
+  {
+    id: "",
+    img: "",
+  },
 ];
+
 const galeriaSeries = document.getElementById("galeria-series");
 const cargaGaleriaSeries = (arr = arrGaleriaSeries) => {
   galeriaSeries.innerHTML = arr
