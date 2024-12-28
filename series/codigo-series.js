@@ -324,55 +324,55 @@ const arrSeries = [
         capitulos: [
           {
             capitulo: 1,
-            src: "https://ok.ru/videoembed/8895371479712?nochat=1",
+            src: "https://ok.ru/videoembed/8900190407328?nochat=1",
           },
           {
             capitulo: 2,
-            src: "https://ok.ru/videoembed/8895371283104?nochat=1",
+            src: "https://ok.ru/videoembed/8900190472864?nochat=1",
           },
           {
             capitulo: 3,
-            src: "https://ok.ru/videoembed/8895371610784?nochat=1",
+            src: "https://ok.ru/videoembed/8900190538400?nochat=1",
           },
           {
             capitulo: 4,
-            src: "https://ok.ru/videoembed/8895420500640?nochat=1",
+            src: "https://ok.ru/videoembed/8900208822944?nochat=1",
           },
           {
             capitulo: 5,
-            src: "https://ok.ru/videoembed/8895420369568?nochat=1",
+            src: "https://ok.ru/videoembed/8900208888480?nochat=1",
           },
           {
             capitulo: 6,
-            src: "https://ok.ru/videoembed/8895420435104?nochat=1",
+            src: "https://ok.ru/videoembed/8900208757408?nochat=1",
           },
           {
             capitulo: 7,
-            src: "https://ok.ru/videoembed/8895461526176?nochat=1",
+            src: "https://ok.ru/videoembed/8900224223904?nochat=1",
           },
           {
             capitulo: 8,
-            src: "https://ok.ru/videoembed/8895461657248?nochat=1",
+            src: "https://ok.ru/videoembed/8900224289440?nochat=1",
           },
           {
             capitulo: 9,
-            src: "https://ok.ru/videoembed/8895461460640?nochat=1",
+            src: "https://ok.ru/videoembed/8900224158368?nochat=1",
           },
           {
             capitulo: 10,
-            src: "https://ok.ru/videoembed/8895502486176?nochat=1",
+            src: "https://ok.ru/videoembed/8900240411296?nochat=1",
           },
           {
             capitulo: 11,
-            src: "https://ok.ru/videoembed/8895502551712?nochat=1",
+            src: "https://ok.ru/videoembed/8900240476832?nochat=1",
           },
           {
             capitulo: 12,
-            src: "",
+            src: "https://ok.ru/videoembed/8900240542368?nochat=1",
           },
           {
             capitulo: 13,
-            src: "",
+            src: "https://ok.ru/videoembed/8900240345760?nochat=1",
           },
         ],
       },
@@ -381,27 +381,272 @@ const arrSeries = [
         capitulos: [
           {
             capitulo: 1,
-            src: "https://ok.ru/videoembed/8895741889184?nochat=1",
+            src: "https://ok.ru/videoembed/8900316695200?nochat=1",
           },
           {
             capitulo: 2,
-            src: "https://ok.ru/videoembed/8895741823648?nochat=1",
+            src: "https://ok.ru/videoembed/8900316629664?nochat=1",
           },
           {
             capitulo: 3,
-            src: "https://ok.ru/videoembed/8895949900448?nochat=1",
+            src: "https://ok.ru/videoembed/8900356737696?nochat=1",
           },
           {
             capitulo: 4,
-            src: "https://ok.ru/videoembed/8895949965984?nochat=1",
+            src: "https://ok.ru/videoembed/8900356672160?nochat=1",
           },
           {
             capitulo: 5,
-            src: "https://ok.ru/videoembed/8895978801824?nochat=1",
+            src: "https://ok.ru/videoembed/8900384852640?nochat=1",
           },
           {
             capitulo: 6,
-            src: "https://ok.ru/videoembed/8895978867360?nochat=1",
+            src: "https://ok.ru/videoembed/8900384918176?nochat=1",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: "Malcolm el de en medio",
+    img: "https://lh3.googleusercontent.com/blogger_img_proxy/AEn0k_vaMNboIWM1Yc2L81JnA6IEplenSnz9O9qSM9k3zHvl4kSGu_HobcA72Grd0lFmjsa_eOnmwoA1StnSu1dejJXJUsQaqeHHhw=s0-d",
+    rsm: "Malcolm in the middle es una serie protagonizada por Frankie Muniz en el papel de Malcolm. Este chico es un joven adolescente superdotado que intenta sobrevivir en una torpe familia disfuncional. Malcolm tendrá que hacer frente a sus problemas en la escuela y a las batallas organizadas por sus hermanos en casa; en un continuo y confuso debate entre la niñez y la adolescencia.",
+    temp: [
+      {
+        numero: 1,
+        capitulos: [
+          {
+            capitulo: 1,
+            src: "https://ok.ru/videoembed/8898926873248?nochat=1",
+          },
+          {
+            capitulo: 2,
+            src: "https://ok.ru/videoembed/8898926676640?nochat=1",
+          },
+          {
+            capitulo: 3,
+            src: "https://ok.ru/videoembed/8898926545568?nochat=1",
+          },
+          {
+            capitulo: 4,
+            src: "https://ok.ru/videoembed/8898926611104?nochat=1",
+          },
+          {
+            capitulo: 5,
+            src: "https://ok.ru/videoembed/8898926742176?nochat=1",
+          },
+          {
+            capitulo: 6,
+            src: "https://ok.ru/videoembed/8898956692128?nochat=1",
+          },
+          {
+            capitulo: 7,
+            src: "https://ok.ru/videoembed/8898956888736?nochat=1",
+          },
+          {
+            capitulo: 8,
+            src: "https://ok.ru/videoembed/8898956757664?nochat=1",
+          },
+          {
+            capitulo: 9,
+            src: "https://ok.ru/videoembed/8898956954272?nochat=1",
+          },
+          {
+            capitulo: 10,
+            src: "https://ok.ru/videoembed/8898957019808?nochat=1",
+          },
+          {
+            capitulo: 11,
+            src: "https://ok.ru/videoembed/8898957019808?nochat=1",
+          },
+          {
+            capitulo: 12,
+            src: "https://ok.ru/videoembed/8898976877216?nochat=1",
+          },
+          {
+            capitulo: 13,
+            src: "https://ok.ru/videoembed/8898977073824?nochat=1",
+          },
+          {
+            capitulo: 14,
+            src: "https://ok.ru/videoembed/8898977270432?nochat=1",
+          },
+          {
+            capitulo: 15,
+            src: "https://ok.ru/videoembed/8898977139360?nochat=1",
+          },
+          {
+            capitulo: 16,
+            src: "https://ok.ru/videoembed/8898977401504?nochat=1",
+          },
+        ],
+      },
+      {
+        numero: 2,
+        capitulos: [
+          {
+            capitulo: 1,
+            src: "https://ok.ru/videoembed/8899065285280?nochat=1",
+          },
+          {
+            capitulo: 2,
+            src: "https://ok.ru/videoembed/8899065612960?nochat=1",
+          },
+          {
+            capitulo: 3,
+            src: "https://ok.ru/videoembed/8899065416352?nochat=1",
+          },
+          {
+            capitulo: 4,
+            src: "https://ok.ru/videoembed/8899065678496?nochat=1",
+          },
+          {
+            capitulo: 5,
+            src: "https://ok.ru/videoembed/8899065547424?nochat=1",
+          },
+          {
+            capitulo: 6,
+            src: "https://ok.ru/videoembed/8899081341600?nochat=1",
+          },
+          {
+            capitulo: 7,
+            src: "https://ok.ru/videoembed/8899081144992?nochat=1",
+          },
+          {
+            capitulo: 8,
+            src: "https://ok.ru/videoembed/8899081538208?nochat=1",
+          },
+          {
+            capitulo: 9,
+            src: "https://ok.ru/videoembed/8899081210528?nochat=1",
+          },
+          {
+            capitulo: 10,
+            src: "https://ok.ru/videoembed/8899081407136?nochat=1",
+          },
+          {
+            capitulo: 11,
+            src: "https://ok.ru/videoembed/8899100478112?nochat=1",
+          },
+          {
+            capitulo: 12,
+            src: "https://ok.ru/videoembed/8899100543648?nochat=1",
+          },
+          {
+            capitulo: 13,
+            src: "https://ok.ru/videoembed/8899100674720?nochat=1",
+          },
+          {
+            capitulo: 14,
+            src: "https://ok.ru/videoembed/8906230860448?nochat=1",
+          },
+          {
+            capitulo: 15,
+            src: "https://ok.ru/videoembed/8899100740256?nochat=1",
+          },
+          {
+            capitulo: 16,
+            src: "https://ok.ru/videoembed/8906230794912?nochat=1",
+          },
+          {
+            capitulo: 17,
+            src: "https://ok.ru/videoembed/8899120007840?nochat=1",
+          },
+          {
+            capitulo: 18,
+            src: "https://ok.ru/videoembed/8899120401056?nochat=1",
+          },
+          {
+            capitulo: 19,
+            src: "https://ok.ru/videoembed/8899120204448?nochat=1",
+          },
+          {
+            capitulo: 20,
+            src: "https://ok.ru/videoembed/8899120269984?nochat=1",
+          },
+          {
+            capitulo: 21,
+            src: "https://ok.ru/videoembed/8899140324000?nochat=1",
+          },
+          {
+            capitulo: 22,
+            src: "https://ok.ru/videoembed/8899140389536?nochat=1",
+          },
+          {
+            capitulo: 23,
+            src: "https://ok.ru/videoembed/8899140651680?nochat=1",
+          },
+          {
+            capitulo: 24,
+            src: "https://ok.ru/videoembed/8899140520608?nochat=1",
+          },
+          {
+            capitulo: 25,
+            src: "//ok.ru/videoembed/8899140586144?nochat=1",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: "los Simpsons",
+    img: "https://lh3.googleusercontent.com/blogger_img_proxy/AEn0k_sR81ogevrWPIq1wESdbOKhSKH_cNA0LP16WJfzmgHuqIG_fzpmvhwDyTJ-WWwOi9DVq_v-Pey77B83ieWHEaj8Ta3VnySTZ1PczF6XIB3hIoNWlUn8zyEHSeQvkx_QBGhnLi9bg3WD=s0-d",
+    rsm: "De la pluma y mente de Matt Groening ('Futurama', 'Los Simpson. La película') en 1989 llegó para quedarse 'Los Simpson', serie de animación que no necesita presentaciones y que es conocida en todo el mundo, aclamada por crítica y público, y que cuenta el día a día de la familia más disparatada de Springfield, sus amigos y el resto de los habitantes de esta ciudad.",
+    temp: [
+      {
+        numero: 1,
+        capitulos: [
+          {
+            capitulo: 1,
+            src: "http://ok.ru/videoembed/8906134325920?nochat=1",
+          },
+          {
+            capitulo: 2,
+            src: "http://ok.ru/videoembed/8906158181024?nochat=1",
+          },
+          {
+            capitulo: 3,
+            src: "http://ok.ru/videoembed/8906158246560?nochat=1",
+          },
+          {
+            capitulo: 4,
+            src: "http://ok.ru/videoembed/8906158377632?nochat=1",
+          },
+          {
+            capitulo: 5,
+            src: "http://ok.ru/videoembed/8906158443168?nochat=1",
+          },
+          {
+            capitulo: 6,
+            src: "http://ok.ru/videoembed/8906169518752?nochat=1",
+          },
+          {
+            capitulo: 7,
+            src: "http://ok.ru/videoembed/8906186230432?nochat=1",
+          },
+          {
+            capitulo: 8,
+            src: "http://ok.ru/videoembed/8906186492576?nochat=1",
+          },
+          {
+            capitulo: 9,
+            src: "http://ok.ru/videoembed/8906186427040?nochat=1",
+          },
+          {
+            capitulo: 10,
+            src: "http://ok.ru/videoembed/8906186623648?nochat=1",
+          },
+          {
+            capitulo: 11,
+            src: "http://ok.ru/videoembed/8906197764768?nochat=1",
+          },
+          {
+            capitulo: 12,
+            src: "http://ok.ru/videoembed/8906197633696?nochat=1",
+          },
+          {
+            capitulo: 13,
+            src: "http://ok.ru/videoembed/8906197699232?nochat=1",
           },
         ],
       },
@@ -409,7 +654,7 @@ const arrSeries = [
   },
 ];
 
-/* inicia funcion agrega interfaz de peliculas con imagenes en html */
+/* inicia interfaz de series con imagenes en html */
 const contenedorSeries = document.getElementById("contenedor-series");
 const cargaSeries = (arr = arrSeries) => {
   contenedorSeries.innerHTML = arr
