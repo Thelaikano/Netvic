@@ -117,14 +117,14 @@ nav > a:hover {
   height: 100%;
   width: 25px;
   border-radius: 50%;
-  background-color: white;
+  background-color: rgb(29, 28, 28);
+  border: 1px solid gray;
 }
 .changefondo:hover {
   cursor: pointer;
 }
 .btn-changefondo:hover {
   cursor: pointer;
-  background-color: rgb(246, 242, 242);
 }
 /* termina tema obscuro */
 /* termina nav */
@@ -355,7 +355,7 @@ main {
 }
 #video {
   display: none;
-  justify-content: center;
+
   align-items: center;
   flex-direction: column;
   background-color: rgba(0, 0, 0, 0.9);
@@ -368,7 +368,7 @@ main {
 }
 #video > iframe {
   box-shadow: 0 0 0.5rem white;
-  margin-top: -300px;
+  margin-top: 30%;
   width: 560px;
   height: 315px;
 }
