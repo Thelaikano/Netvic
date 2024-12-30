@@ -598,55 +598,55 @@ const arrSeries = [
         capitulos: [
           {
             capitulo: 1,
-            src: "http://ok.ru/videoembed/8906134325920?nochat=1",
+            src: "//ok.ru/videoembed/8906134325920?nochat=1",
           },
           {
             capitulo: 2,
-            src: "http://ok.ru/videoembed/8906158181024?nochat=1",
+            src: "//ok.ru/videoembed/8906158181024?nochat=1",
           },
           {
             capitulo: 3,
-            src: "http://ok.ru/videoembed/8906158246560?nochat=1",
+            src: "//ok.ru/videoembed/8906158246560?nochat=1",
           },
           {
             capitulo: 4,
-            src: "http://ok.ru/videoembed/8906158377632?nochat=1",
+            src: "//ok.ru/videoembed/8906158377632?nochat=1",
           },
           {
             capitulo: 5,
-            src: "http://ok.ru/videoembed/8906158443168?nochat=1",
+            src: "//ok.ru/videoembed/8906158443168?nochat=1",
           },
           {
             capitulo: 6,
-            src: "http://ok.ru/videoembed/8906169518752?nochat=1",
+            src: "//ok.ru/videoembed/8906169518752?nochat=1",
           },
           {
             capitulo: 7,
-            src: "http://ok.ru/videoembed/8906186230432?nochat=1",
+            src: "//ok.ru/videoembed/8906186230432?nochat=1",
           },
           {
             capitulo: 8,
-            src: "http://ok.ru/videoembed/8906186492576?nochat=1",
+            src: "//ok.ru/videoembed/8906186492576?nochat=1",
           },
           {
             capitulo: 9,
-            src: "http://ok.ru/videoembed/8906186427040?nochat=1",
+            src: "//ok.ru/videoembed/8906186427040?nochat=1",
           },
           {
             capitulo: 10,
-            src: "http://ok.ru/videoembed/8906186623648?nochat=1",
+            src: "//ok.ru/videoembed/8906186623648?nochat=1",
           },
           {
             capitulo: 11,
-            src: "http://ok.ru/videoembed/8906197764768?nochat=1",
+            src: "//ok.ru/videoembed/8906197764768?nochat=1",
           },
           {
             capitulo: 12,
-            src: "http://ok.ru/videoembed/8906197633696?nochat=1",
+            src: "//ok.ru/videoembed/8906197633696?nochat=1",
           },
           {
             capitulo: 13,
-            src: "http://ok.ru/videoembed/8906197699232?nochat=1",
+            src: "//ok.ru/videoembed/8906197699232?nochat=1",
           },
         ],
       },
@@ -655,80 +655,80 @@ const arrSeries = [
         capitulos: [
           {
             capitulo: 1,
-            src: "http://ok.ru/videoembed/8907005823648?nochat=1",
+            src: "//ok.ru/videoembed/8907005823648?nochat=1",
           },
           {
             capitulo: 2,
-            src: "http://ok.ru/videoembed/8907005889184?nochat=1",
+            src: "//ok.ru/videoembed/8907005889184?nochat=1",
           },
           {
             capitulo: 3,
-            src: "http://ok.ru/videoembed/8907005954720?nochat=1",
+            src: "//ok.ru/videoembed/8907005954720?nochat=1",
           },
           {
             capitulo: 4,
-            src: "http://ok.ru/videoembed/8907010869920?nochat=1",
+            src: "//ok.ru/videoembed/8907010869920?nochat=1",
           },
           {
             capitulo: 5,
-            src: "http://ok.ru/videoembed/8907010935456?nochat=1",
+            src: "//ok.ru/videoembed/8907010935456?nochat=1",
           },
           {
             capitulo: 6,
-            src: "http://ok.ru/videoembed/8907011000992?nochat=1",
+            src: "//ok.ru/videoembed/8907011000992?nochat=1",
           },
           {
             capitulo: 7,
-            src: "http://ok.ru/videoembed/8907013491360?nochat=1",
+            src: "//ok.ru/videoembed/8907013491360?nochat=1",
           },
           {
             capitulo: 8,
-            src: "http://ok.ru/videoembed/8907013622432?nochat=1",
+            src: "//ok.ru/videoembed/8907013622432?nochat=1",
           },
           {
             capitulo: 9,
-            src: "http://ok.ru/videoembed/8907013556896?nochat=1",
+            src: "//ok.ru/videoembed/8907013556896?nochat=1",
           },
           {
             capitulo: 10,
-            src: "http://ok.ru/videoembed/8907013687968?nochat=1",
+            src: "//ok.ru/videoembed/8907013687968?nochat=1",
           },
           {
             capitulo: 11,
-            src: "http://ok.ru/videoembed/8907017161376?nochat=1",
+            src: "//ok.ru/videoembed/8907017161376?nochat=1",
           },
           {
             capitulo: 12,
-            src: "http://ok.ru/videoembed/8907017226912?nochat=1",
+            src: "//ok.ru/videoembed/8907017226912?nochat=1",
           },
           {
             capitulo: 13,
-            src: "http://ok.ru/videoembed/8907017292448?nochat=1",
+            src: "//ok.ru/videoembed/8907017292448?nochat=1",
           },
 
           {
             capitulo: 14,
-            src: "http://ok.ru/videoembed/8907019848352?nochat=1",
+            src: "//ok.ru/videoembed/8907019848352?nochat=1",
           },
           {
             capitulo: 15,
-            src: "http://ok.ru/videoembed/8907019848352?nochat=1",
+            src: "//ok.ru/videoembed/8907019848352?nochat=1",
           },
           {
             capitulo: 16,
-            src: "http://ok.ru/videoembed/8907019913888?nochat=1",
+            src: "//ok.ru/videoembed/8907019913888?nochat=1",
           },
           {
             capitulo: 17,
-            src: "http://ok.ru/videoembed/8907023452832?nochat=1",
+            src: "//ok.ru/videoembed/8907023452832?nochat=1",
           },
           {
             capitulo: 18,
-            src: "http://ok.ru/videoembed/8907023583904?nochat=1",
+            src: "//ok.ru/videoembed/8907023583904?nochat=1",
           },
           {
             capitulo: 19,
-            src: "http://ok.ru/videoembed/8907023518368?nochat=1",
+            src: "//ok.ru/videoembed/8907023518368?nochat=1",
           },
           {
             capitulo: 20,
@@ -736,11 +736,11 @@ const arrSeries = [
           },
           {
             capitulo: 21,
-            src: "http://ok.ru/videoembed/8907023387296?nochat=1",
+            src: "//ok.ru/videoembed/8907023387296?nochat=1",
           },
           {
             capitulo: 22,
-            src: "http://ok.ru/videoembed/8907028302496?nochat=1",
+            src: "//ok.ru/videoembed/8907028302496?nochat=1",
           },
         ],
       },
