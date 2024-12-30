@@ -128,7 +128,9 @@ nav > a:hover {
   height: 100%;
   width: 25px;
   border-radius: 50%;
-  background-color: white;
+  background-color: rgb(29, 28, 28);
+  border: 1px solid gray;
+  margin-left: 2px;
 }
 .changefondo:hover {
   cursor: pointer;

@@ -261,10 +261,6 @@ const arrGaleriaSeries = [
     id: "los Simpsons",
     img: "https://lh3.googleusercontent.com/blogger_img_proxy/AEn0k_sR81ogevrWPIq1wESdbOKhSKH_cNA0LP16WJfzmgHuqIG_fzpmvhwDyTJ-WWwOi9DVq_v-Pey77B83ieWHEaj8Ta3VnySTZ1PczF6XIB3hIoNWlUn8zyEHSeQvkx_QBGhnLi9bg3WD=s0-d",
   },
-  {
-    id: "",
-    img: "",
-  },
 ];
 
 const galeriaSeries = document.getElementById("galeria-series");
