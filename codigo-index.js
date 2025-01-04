@@ -169,11 +169,11 @@ const arrGaleriaPeliculas = [
       "Nacido con el don de ver a los ángeles y demonios que viven en la tierra bajo aspecto humano, John Constantine se quitó la vida para escapar de sus visiones. Resucitado en contra de su voluntad, patrulla la frontera terrenal entre cielo e infierno.",
   },
   {
-    id: "Historia americana X",
-    img: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgH-e4Quj_8oprs11bP4ugtEbKOfRT00Pcuv8r58lfdPDIbUXfCPeG2MbcU0XkJ7oUzZCRoQiFxQjeci477UNPKpl25DKdl9M8GWuLAwWWhBMxFbhwZ4D1Ly672m8-xyYQb5xKPBRYibG9g/s200/American+history.bmp",
-    src: "https://ok.ru/videoembed/5271270394452?nochat=1",
+    id: "ECW One Night Stand",
+    img: "https://m.media-amazon.com/images/M/MV5BNDBjNGNhYzctMjM1Zi00YmZjLWFlZDQtZmQ5MDAwNGY0MjYwXkEyXkFqcGdeQXVyMzQwNDk2ODM@._V1_.jpg",
+    src: "//ok.ru/videoembed/8927396891296?nochat=1",
     resumen:
-      "Tras cumplir condena por el asesinato de dos hombres negros, Derek Vinyard, logra vencer su fanatismo, pero no se dará por satisfecho hasta que no haga entrar en razón a su hermano, quien le ve como un héroe e intenta seguir sus pasos.",
+      " ECW One Night Stand 2006, dirigido por Kevin Dunn, es un evento de lucha libre profesional producido por la World Wrestling Entertainment (WWE). Este evento especial marcó un hito en la historia de la ECW, ofreciendo combates intensos y emocionantes que capturaron la esencia del estilo hardcore de la ECW.",
   },
 ];
 const cargaGaleriaPeliculas = (arr = arrGaleriaPeliculas) => {

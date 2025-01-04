@@ -233,6 +233,14 @@ const ArrPeliculas = [
     resumen:
       "Tras cumplir condena por el asesinato de dos hombres negros, Derek Vinyard, logra vencer su fanatismo, pero no se dará por satisfecho hasta que no haga entrar en razón a su hermano, quien le ve como un héroe e intenta seguir sus pasos.",
   },
+  {
+    id: "ECW One Night Stand",
+    genero: "wwf",
+    img: "https://m.media-amazon.com/images/M/MV5BNDBjNGNhYzctMjM1Zi00YmZjLWFlZDQtZmQ5MDAwNGY0MjYwXkEyXkFqcGdeQXVyMzQwNDk2ODM@._V1_.jpg",
+    src: "//ok.ru/videoembed/8927396891296?nochat=1",
+    resumen:
+      " ECW One Night Stand 2006, dirigido por Kevin Dunn, es un evento de lucha libre profesional producido por la World Wrestling Entertainment (WWE). Este evento especial marcó un hito en la historia de la ECW, ofreciendo combates intensos y emocionantes que capturaron la esencia del estilo hardcore de la ECW.",
+  },
 ];
 /* termina arrai */
 
